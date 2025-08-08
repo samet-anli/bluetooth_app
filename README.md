@@ -1,16 +1,47 @@
-# bluetooth_app
+# 📡 Bluetooth App
 
-A new Flutter project.
+**Bluetooth App**, iOS ve Android cihazlarda **Classic Bluetooth**, **Bluetooth Low Energy (BLE)** ve **iBeacon** teknolojilerini tek bir uygulama içinde bir araya getiren kapsamlı bir Flutter projesidir.  
+Kullanıcıların cihazlarını taramasına, bağlanmasına, veri alışverişi yapmasına ve iBeacon sinyallerini algılamasına olanak tanır.
 
-## Getting Started
+Bu proje, hem geliştiriciler hem de Bluetooth teknolojilerini test etmek veya kullanmak isteyen son kullanıcılar için **tak çalıştır** bir çözümdür.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Özellikler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✅ Classic Bluetooth
+- Cihaz tarama ve keşif
+- Bağlantı yönetimi (eşleştirme / bağlantı kesme)
+- Çift yönlü veri iletişimi
+- Bağlantı durumu izleme
+- Cihazı diğer cihazlara görünür yapma
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✅ BLE (Bluetooth Low Energy)
+- Servis filtreleme ile BLE cihaz tarama
+- GATT bağlantı yönetimi
+- Servis ve karakteristik keşfi
+- Karakteristik değerlerini okuma/yazma
+- Karakteristik bildirimleri ve abonelikler
+- Bağlantı durumu izleme
+
+### ✅ iBeacon Desteği
+- iBeacon tarama ve mesafe ölçümü (ranging)
+- Yakınlık algılama
+- Bölge izleme (region monitoring)
+
+---
+
+## 📋 Gereksinimler
+- **Flutter:** 3.3.0+
+- **Dart:** 3.8.1+
+- **Android:** API level 21+ (Android 5.0+)
+- **iOS:** 11.0+
+
+---
+
+## 📦 Kurulum & Çalıştırma
+```bash
+git clone https://github.com/KULLANICI_ADIN/bluetooth_app.git
+cd bluetooth_app
+flutter pub get
+flutter run
