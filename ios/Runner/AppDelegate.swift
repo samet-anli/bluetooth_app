@@ -1,0 +1,23 @@
+import Flutter
+import UIKit
+
+@main
+@objc class AppDelegate: FlutterAppDelegate {
+  override func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
+    
+    GeneratedPluginRegistrant.register(with: self)
+    
+    // Initialize UniversalBluetoothPlugin as native implementation
+    guard let controller = window?.rootViewController as? FlutterViewController else {
+        fatalError("Root view controller is not FlutterViewController")
+    }
+    
+    let messenger = controller.binaryMessenger
+    UniversalBluetoothPlugin.shared.initialize(with: messenger)
+    
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+}
