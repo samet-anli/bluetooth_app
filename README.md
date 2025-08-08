@@ -3,8 +3,6 @@
 **Bluetooth App**, iOS ve Android cihazlarda **Classic Bluetooth**, **Bluetooth Low Energy (BLE)** ve **iBeacon** teknolojilerini tek bir uygulama içinde bir araya getiren kapsamlı bir Flutter projesidir.  
 Kullanıcıların cihazlarını taramasına, bağlanmasına, veri alışverişi yapmasına ve iBeacon sinyallerini algılamasına olanak tanır.
 
-Bu proje, hem geliştiriciler hem de Bluetooth teknolojilerini test etmek veya kullanmak isteyen son kullanıcılar için **tak çalıştır** bir çözümdür.
-
 ---
 
 ## 🚀 Özellikler
