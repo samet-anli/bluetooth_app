@@ -1,6 +1,6 @@
 # Bluetooth App
 
-**Bluetooth App** — iOS ve Android için geliştirilmiş, Flutter ile kullanılabilen kapsamlı bir Bluetooth eklentisidir.  
+**Bluetooth App** — iOS ve Android için geliştirilmiş, Flutter ile kullanılabilen kapsamlı bir Bluetooth uygulamasıdır.  
 Tek bir çatı altında **Classic Bluetooth**, **Bluetooth Low Energy (BLE)** ve **iBeacon** fonksiyonlarını sağlar.
 
 ---
@@ -23,7 +23,6 @@ Tek bir çatı altında **Classic Bluetooth**, **Bluetooth Low Energy (BLE)** ve
 - Bağlantı durumunu izleme
 
 ### ✅ iBeacon
-- iBeacon reklamı (advertising) — iOS & Android
 - iBeacon tarama ve ranging (mesafe ölçümü)
 - Yakınlık (proximity) tespiti
 - Bölge izleme (region monitoring)
